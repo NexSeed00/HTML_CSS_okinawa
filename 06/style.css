@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.container li {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #007bbb;
+}
+
+li:nth-child(2n) {
+  background-color: #f8b500;
+}
