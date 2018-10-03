@@ -1,7 +1,10 @@
 <!-- 
   色を16進数で書く
   flexbox
+
   border-radius
+  justify-content 水平方向の位置
+  align-items 垂直方向の位置
 
  -->
 
@@ -14,11 +17,68 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <ul class="container">
-    <li>php</li>
-    <li>go</li>
-    <li>javascript</li>
-    <li>swift</li>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+      </ul>
+
+  <!-- 水平 -->
+  <ul class="flex justify">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
   </ul>
+
+  <!-- 垂直 -->
+  <ul class="flex align-items">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+  </ul>
+
+  <ul class="flex direction">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+  </ul>
+
+  <span class="flex-inline">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+  </span>
+
+  <ul class="flex direction">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+  </ul>
+
+  <ul class="flex wrap">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+  </ul>
+
 </body>
 </html>
