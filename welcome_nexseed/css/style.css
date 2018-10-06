@@ -141,3 +141,60 @@ header {
   margin-top: 20px;
 }
 /* curriculumここまで */
+
+/* contact */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 350px;
+  margin-top: 50px;
+  background-color: #ebf4f5;
+}
+
+.contact .form {
+  margin: 50px 0 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.form .name {
+  margin-bottom: 20px;
+}
+
+.form .name, 
+.form .email {
+  height: 50px;
+  width: 400px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form-left {
+  margin-right: 50px;
+}
+
+.form .inquiry {
+  height: 120px;
+  width: 400px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.contact button {
+  background-color: #1dace0;
+  color: #fff;
+  border: 3px solid #1dace0;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 15px 30px;
+  box-sizing: border-box;
+}
+
+.contact button:hover {
+  background-color: #fff;
+  color: #1dace0;
+  transition-duration: 500ms;
+}
+/* contactここまで */
