@@ -198,3 +198,20 @@ header {
   transition-duration: 500ms;
 }
 /* contactここまで */
+
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #233f51;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px;
+}
+
+footer .footer-right {
+  margin-right: 80px;
+}
+/* footerここまで */
