@@ -1,3 +1,20 @@
+/* header固定 */
+/* 
+ 本来はidで実施する必要はない
+ 今回はidの使い方も覚えるため実施
+*/
+
+#fixed {
+  position: fixed;
+  width: 100%;
+  margin-top: -70px;
+}
+
+#margin-for-fixed {
+  margin-top: 70px;
+}
+/* header固定ここまで */
+
 /* header */
 
 header {
