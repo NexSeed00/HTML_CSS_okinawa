@@ -8,13 +8,14 @@
 
 .label {
 	width: 120px;
-	height: 100%;
+	margin-right: 80px;
 }
 
 .input-field {
 	width: 240px;
-	height: 100%;
 	box-sizing: border-box;
+	height: 40px;
+	line-height: 40px;
 }
 
 .form-group {
@@ -38,5 +39,5 @@
     line-height: 50px;
     border-radius: 5px;
     border: 3px solid #009cd3;
-    margin-left: 140px;
+    margin-left: 200px;
 }
