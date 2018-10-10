@@ -209,6 +209,7 @@ header {
   font-size: 24px;
   padding: 15px 30px;
   box-sizing: border-box;
+  transition-duration: 500ms;
 }
 
 .contact button:hover {
