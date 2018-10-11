@@ -46,48 +46,84 @@
 .hamburger:hover span:after {
   transform: rotate(-45deg) translate(7px, -8px);
 }
+/* ハンバーガーメニューここまで */
 
 
-/* スターウォーズ */
-/* #titlebox {
-  position: absolute;
-  width: 18em;
-  height: 50em;
-  bottom: 0;
-  left: 50%;
-  margin-left: -9em;
-  font-size: 350%;
-  font-weight: bold;
-  text-align: justify;
-  overflow: hidden;
-  transform-origin: 50% 100%;
-  transform: perspective(300px) rotateX(25deg);
-  width: 100%;
-  height: 100%;
-  font-weight: 700;
-  color: #ff6;
-  background-color: #000;
-  overflow: hidden;
+/* ふわっと表示 */
+.anime_test {
+  text-align: center;
+  position: relative;
+  animation: fadeIn 3s ease;
 }
 
-#titlebox:after {
-  position: absolute;
-  content: ' ';
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 60%;
-  background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
-  pointer-events: none;
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      top: 100px;
+  }
+  100% {
+      opacity: 1;
+      top: 0;
+  }
+}
+/* ふわっと表示ここまで */
+
+/* rotate */
+.rotate-box {
+  margin: 150px auto 0;
+  height: 100px;
+  width: 100px;
+  background: #ddffdd;
+  transition: all 2s;
 }
 
-#title {
-  position: absolute;
-  top: 100%;
-  animation: scroll 100s linear 4s infinite;
+.rotate-box:active {
+  transform: rotateZ(180deg);
+  transform: rotateX(180deg);
+  transform: rotateY(180deg);
+  transition: all 2s;
+}
+/* rotateここまで */
+
+/* 移動 */
+.move-box1 {
+  margin: 50px auto 0;
+  height: 100px;
+  width: 100px;
+  background-color: #00deff;
+  position: relative;
+  animation: move1 1.5s;
 }
 
-@keyframes scroll {
-  0% { top: 100%; }
-  100% { top: -170%; }
-} */
+@keyframes move1 {
+  0% {
+    right: -200px;
+  }
+
+  100% {
+    right: 0;
+  }
+}
+
+
+.move-box2 {
+  margin: 50px auto 0;
+  height: 100px;
+  width: 100px;
+  background-color: #00deff;
+  position: relative;
+  animation: move2 2.5s;
+}
+
+@keyframes move2 {
+  0% {
+    left: -200px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+
+/* 移動ここまで */
