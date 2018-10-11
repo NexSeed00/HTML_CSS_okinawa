@@ -1,6 +1,6 @@
 .bg {
     background: url(../img/img.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
