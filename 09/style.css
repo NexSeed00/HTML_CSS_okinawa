@@ -39,6 +39,7 @@
 /* ハンバーガーメニューをバツに変更するコード */
 .hamburger:hover span {
   background-color: transparent;
+  cursor: pointer;
 }
 
 .hamburger:hover span:before {
@@ -77,6 +78,9 @@
   width: 100px;
   background: #ddffdd;
   transition: all 2s;
+}
+.rotate-box:hover {
+  cursor: pointer;
 }
 
 .rotate-box:active {
