@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* ハンバーガーメニュー */
 .hamburger {
   width: 28px;
@@ -10,7 +12,7 @@
   display: block;
 }
 
-.hamburger span:after, 
+.hamburger span:after,
 .hamburger span:before {
   content: "";
   position: absolute;
