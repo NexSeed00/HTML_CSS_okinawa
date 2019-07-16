@@ -15,7 +15,8 @@ body {
 #fixed {
   position: fixed;
   width: 100%;
-  margin-top: -70px;
+  top: 0;
+  left: 0;
 }
 
 #margin-for-fixed {
@@ -178,7 +179,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   height: 350px;
   margin-top: 50px;
   background-color: #ebf4f5;
