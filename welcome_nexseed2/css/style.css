@@ -7,8 +7,7 @@
 #fixed {
   position: fixed;
   width: 100%;
-  top: 0;
-  left: 0;
+  margin-top: -70px;
 }
 
 #margin-for-fixed {
@@ -60,7 +59,7 @@ header {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
@@ -164,11 +163,10 @@ header {
 
 /* contact */
 .contact {
-  padding-top: 30px;
-  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   height: 350px;
   margin-top: 50px;
   background-color: #ebf4f5;
@@ -180,18 +178,12 @@ header {
   justify-content: center;
 }
 
-.contact .form label{
-  display: block;
-}
-
 .form .name {
   margin-bottom: 20px;
 }
 
 .form .name, 
 .form .email {
-  margin-top: 10px;
-  display: block;
   height: 50px;
   width: 400px;
   box-sizing: border-box;
@@ -203,16 +195,10 @@ header {
 }
 
 .form .inquiry {
-  margin-top: 10px;
-  display: block;
   height: 120px;
   width: 400px;
   box-sizing: border-box;
   font-size: 16px;
-}
-
-.form-btn-wrapper {
-  text-align: center;
 }
 
 .contact button {
@@ -296,21 +282,18 @@ footer .footer-right {
     margin-bottom: 30px;
   }
 
-  .form label{
+  .form .name, 
+  .form .email {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  .form .name,
-  .form .email,
-  .form .inquiry{
-    width: 100%;
+  .form .inquiry {
+    width: 80%;
   }
 
   .contact button {
     font-size: 20px;
-    padding: 10px 40px;
+    padding: 5px 40px;
     box-sizing: border-box;
   }
   /* contactここまで */
