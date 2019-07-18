@@ -7,7 +7,7 @@
 #fixed {
   position: fixed;
   width: 100%;
-  margin-top: -70px;
+  top: 0;
 }
 
 #margin-for-fixed {
@@ -163,10 +163,11 @@ header {
 
 /* contact */
 .contact {
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   height: 350px;
   margin-top: 50px;
   background-color: #ebf4f5;
@@ -178,8 +179,19 @@ header {
   justify-content: center;
 }
 
+.contact .form label{
+  display: block;
+}
+
 .form .name {
   margin-bottom: 20px;
+}
+
+.form .name, 
+.form .email,
+.form .inquiry {
+  display: block;
+  margin-top: 10px;
 }
 
 .form .name, 
@@ -201,6 +213,10 @@ header {
   font-size: 16px;
 }
 
+.contact .submit {
+  text-align: center;
+}
+
 .contact button {
   background-color: #1dace0;
   color: #fff;
@@ -212,6 +228,7 @@ header {
 }
 
 .contact button:hover {
+  cursor: pointer;
   background-color: #fff;
   color: #1dace0;
   transition-duration: 500ms;
@@ -282,18 +299,20 @@ footer .footer-right {
     margin-bottom: 30px;
   }
 
-  .form .name, 
-  .form .email {
+  .form label {
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
-
+  .form .name,
+  .form .email,
   .form .inquiry {
-    width: 80%;
+    width: 100%;
   }
 
   .contact button {
     font-size: 20px;
-    padding: 5px 40px;
+    padding: 15px 40px;
     box-sizing: border-box;
   }
   /* contactここまで */
@@ -377,8 +396,8 @@ footer .footer-right {
   }
 
   .img-box li span {
-      font-size: 16px;
-      margin-top: 20px;
+    font-size: 16px;
+    margin-top: 20px;
   }
   /* curriculumここまで */
 
