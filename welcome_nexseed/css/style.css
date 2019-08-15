@@ -239,6 +239,9 @@ header {
   color: #1dace0;
   transition-duration: 500ms;
 }
+.submit {
+  text-align: center;
+}
 /* contactここまで */
 
 
